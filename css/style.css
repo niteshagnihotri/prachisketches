@@ -1,0 +1,240 @@
+*{
+    margin: auto;
+    padding: 0; 
+}
+
+
+/* nav */
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color:rgb(3, 3, 39);
+    top:0px;
+    margin: auto;
+    position: sticky;
+    align-items: center;
+    height:60px;
+}
+
+.navbar ul{ 
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.items a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 1.4rem;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:0px 9px;
+    margin: auto;
+}
+.items a:hover{
+    color:lightcoral;
+}
+.items a:active{
+    color:rgb(153, 57, 57);
+}
+
+/* logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    max-width:500px;
+    height:auto;
+}
+
+/* Intro */
+
+.intro{
+    border-top: 8px solid blue;
+    border-bottom: 8px solid blue;
+    background-color: rgb(204, 218, 218);
+}
+.para{
+    padding: 30px 10px;
+    font-size: 20px;
+    color: rgb(18, 25, 87);
+    font-family: Calibri;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 35px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Calibri';
+}
+
+/* home */
+.home{
+    margin:0px; 
+    width:100%;
+    background-color: rgb(12, 12, 24);
+    display: flex;
+}
+.sketches{
+    display: flex;
+    overflow: wrap;
+    width: 400px;
+    height:550px;
+    border-radius: 5px;
+}
+
+
+.welcome{
+        padding-top: 90px;
+        padding:20px;
+}
+.heading{   
+    font-size: 3.4rem;
+    color: rgb(230, 129, 15);
+    font-weight: 550;
+    font-family: 'Calibri';
+    display: flex;
+    margin: 10px 25px;
+}
+
+.details{
+    color: rgb(150, 26, 67);
+    font-size:1.5rem;
+    padding:10px 20px;
+    margin: 10px;
+    font-weight: 550;
+    word-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    display: flex;
+}
+
+
+/* note */
+.note{
+    color: rgb(9, 248, 41);
+    font-size : 0.9rem;
+    margin: 10px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#note{
+    position: sticky;
+    background-color: rgb(10, 10, 34);
+    bottom: 0px;
+    width: 100%;
+}
+
+/* gallery */
+.sec-heading{
+    color:brown;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Calibri';
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+
+}
+.gallery{
+    background-color: rgb(77, 12, 44);
+
+}
+.gallery ul{
+    list-style-type: none;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: wrap;
+    justify-items: center;
+
+}
+.gallery img{
+    border: 10px solid rgb(255, 255, 255);
+    margin: 30px 0px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width:40rem;
+    height:50rem;
+}
+
+/* info */
+.info{
+    padding: 90px;
+    background-color:black;
+}
+
+.prgp{
+    word-spacing: 10px;
+    line-height: 40px;
+    font-size:1.5rem;
+    font-family: Calibri;
+    margin: 17px 25px;
+    color: rgb(175, 129, 129);
+    
+
+}
+
+/* About */
+.about{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+   
+    border-bottom:10px solid rgb(94, 28, 39)
+}
+.about h3{
+    font-size: 2.8rem;
+    color: rgb(104, 48, 57);
+    font-family: 'Calibri';
+    margin: 20px 10px;
+    padding: 20px;
+}
+.about p{
+    font-size: 1.5rem;
+    color: brown;
+    font-family: 'Calibri';
+    word-spacing: 20px;
+    padding: 50px 40px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.about article{
+        float: left;    
+        width: fit-content;
+}
+
+/* profile */
+.profile ul{
+    padding: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: wrap;
+}
+.profile ul li{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding: 20px;
+}
+.profile img{
+    width: 120px;
+    height:110px;
+}
+.profile li{
+    display: flex;
+}
